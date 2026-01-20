@@ -1,6 +1,10 @@
- Zeus Banking Trojan – Malware Analysis
 
-## Overview
+
+---
+
+## Zeus Banking Trojan – Malware Analysis
+
+##  Overview
 
 This repository documents the analysis of a real-world **Zeus Banking Trojan**, conducted strictly for **educational and defensive cybersecurity research**.
 
@@ -11,21 +15,21 @@ This repository documents the analysis of a real-world **Zeus Banking Trojan**, 
 
 All testing was done in controlled lab environments. Intended solely for **learning and ethical analysis**.
 
-## Environment
+##  Environment
 
-*  Isolated virtual machines (FLARE-VM)
-*  No exposure to live systems or networks
-*  Offline or simulated network conditions
+* Isolated virtual machines (FLARE-VM)
+* No exposure to live systems or networks
+* Offline or simulated network conditions
 
 ## 🔍 Scope
 
 * 📄 Static analysis (hashes, strings, PE structure)
 * ⚡ Dynamic analysis (process behavior, registry, network activity)
 
-## 📊 Key Takeaways
+## 🔑 Key Takeaways
 
 *  Process injection & persistence mechanisms observed
-*  Encrypted C2-style communication patterns
+* 🔑 Encrypted C2-style communication patterns
 *  Highlights the need for behavioral and endpoint-based detection
 
 ## 📁 Repository Contents
@@ -33,9 +37,12 @@ All testing was done in controlled lab environments. Intended solely for **learn
 ```
 README.md
 Analysis_Report.pdf
+Indicators_of_Compromise.txt
+Screenshots/
 ```
 
 🚫 No malicious files are included.
 
 ---
 
+If you want, I can also make a **super compact, single-page version with max emojis for visual impact**, perfect for GitHub. Do you want me to do that?
