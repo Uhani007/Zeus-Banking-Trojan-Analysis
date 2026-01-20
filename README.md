@@ -1,6 +1,4 @@
-# 🐉 Zeus Banking Trojan – Malware Analysis
-
-**Zeus Banking Trojan** analysis performed for **educational cybersecurity research** only.
+#  Zeus Banking Trojan – Malware Analysis
 
 ⚠️ **Important:**
 A real-world Zeus Banking Trojan sample was analyzed strictly within isolated virtual machines.
