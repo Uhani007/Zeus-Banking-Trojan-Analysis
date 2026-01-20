@@ -1,48 +1,64 @@
+# 🐉 Zeus Banking Trojan – Malware Analysis
 
+**Zeus Banking Trojan** analysis performed for **educational cybersecurity research** only.
+
+⚠️ **Important:**
+A real-world Zeus Banking Trojan sample was analyzed strictly within isolated virtual machines.
+❌ **No malware binaries or executable samples are included in this repository.**
 
 ---
 
-## Zeus Banking Trojan – Malware Analysis
+## 🔍 Project Overview
 
-##  Overview
+* **Purpose:** Study real-world banking malware behavior for learning and lab analysis
+* **Category:** Malware Analysis / Digital Forensics
+* **Focus:** Defensive insights and threat understanding
 
-This repository documents the analysis of a real-world **Zeus Banking Trojan**, conducted strictly for **educational and defensive cybersecurity research**.
+---
 
-## ⚠️ Disclaimer
-
-> A real-world Zeus Banking Trojan sample was analyzed strictly within isolated virtual machines.
-> ❌ No malware binaries or executable samples are included in this repository.
-
-All testing was done in controlled lab environments. Intended solely for **learning and ethical analysis**.
-
-##  Environment
-
-* Isolated virtual machines (FLARE-VM)
-* No exposure to live systems or networks
-* Offline or simulated network conditions
-
-## 🔍 Scope
+## 🚀 Features
 
 * 📄 Static analysis (hashes, strings, PE structure)
-* ⚡ Dynamic analysis (process behavior, registry, network activity)
+* ⚡ Dynamic analysis (process behavior, registry, filesystem)
+*  Network behavior and encrypted C2 pattern observation
+*  Indicators of Compromise (IOCs) documentation
+*  Screenshots for educational reference
+
+---
+
+## 💻 Environment
+
+*  Isolated virtual machines (FLARE-VM)
+*  No exposure to live systems or real users
+*  Offline or simulated network conditions only
+
+---
 
 ## 🔑 Key Takeaways
 
-*  Process injection & persistence mechanisms observed
-* 🔑 Encrypted C2-style communication patterns
-*  Highlights the need for behavioral and endpoint-based detection
+*  Process injection and persistence mechanisms observed
+*  Encrypted command-and-control style communication
+*  Demonstrates importance of behavioral detection and endpoint monitoring
+
+---
 
 ## 📁 Repository Contents
 
 ```
 README.md
 Analysis_Report.pdf
-Indicators_of_Compromise.txt
-Screenshots/
+
 ```
 
-🚫 No malicious files are included.
+🚫 No malicious files are distributed.
 
 ---
 
-If you want, I can also make a **super compact, single-page version with max emojis for visual impact**, perfect for GitHub. Do you want me to do that?
+## 🔒 Safety & Ethics
+
+* Educational and lab use **only**
+* Never analyze or execute malware on unauthorized systems
+* Follow ethical hacking and responsible disclosure principles
+
+---
+
